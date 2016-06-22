@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Wireframe</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="public/images/OfficeSupplies.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="public/images/OfficeSupplies.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="public/images/OfficeSupplies.png">
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <script src="https://use.fontawesome.com/2076d8b41d.js"></script>
+</head>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary" id="header-class">
+        <form action="#" style="background: #ffffff" id="header-form">
+            <div class="header">
+                <!-- icon -->
+                <div id="header-image">
+                    <img id="header-logo" src="public/images/OfficeSupplies.png" alt="office">
+                </div>
+                <!-- text-search -->
+                <div id="header-search" class="mdl-textfield mdl-js-textfield">
+                    <input class="mdl-textfield__input" type="text" id="search" pattern="[A-Z,a-z, ]*">
+                    <label class="mdl-textfield__label" for="search">Search</label>
+                    <span class="mdl-textfield__error">Letters and spaces only</span>
+                    <button id="header-searchbtn"
+                            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        Search
+                    </button>
+                </div>
+                <!-- Button -->
+                <!-- Shopping Cart -->
+                <div class="mini-shopping-cart">
+                    <div class="mini-cart-label" style="display: none;">
+                        <span class="mini-cart-qty">
+                          <span id="mcQty">0</span> item(s),
+                        </span>
+                        <span class="mini-cart-total">
+                          <span id="mcTotal">0</span>,00 KR
+                        </span>
+                    </div>
+                    <button id="icon-cart" class="material-icons">&#xE8CC;</button>
+                </div>
+                <!-- CheckOut -->
+                <button id="icon-checkout" class="material-icons">&#xE877;</button>
+                <button id="icon-mobile-search" class="material-icons">&#xE8B6;</button>
+            </div>
+        </form>
+
+        <div id="menu1" class="mdl-layout__tab-bar mdl-js-ripple-effect">
+            <a href="#overview" class="mdl-layout__tab is-active">All our products</a>
+            <a href="#features" class="mdl-layout__tab">Inspiration for the office</a>
+            <a href="#features" class="mdl-layout__tab">About us</a>
+        </div>
+
+    </header>
+
+    <body class="mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+
+    <main class="mdl-layout__content">
+
+        <div class="mdl-grid portfolio-max-width">
+            <!--First Row Menu Elements-->
+            <div class="mdl-card mdl-shadow--2dp" id="side-menu">
+                <div class="mdl-cell mdl-cell--2-col">
+                    <!--Second Menu Items-->
+                    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+                        <div id="second-menu" class="mdl-layout__drawer mdl-color--lime-900 mdl-color-text--lime-50">
+                            <nav class="mdl-navigation mdl-color--blue-grey-800">
+                                <a class="mdl-navigation__link" href="#">Paper clips</a>
+                                <a class="mdl-navigation__link" href="#">Post-it notes</a>
+                                <a class="mdl-navigation__link" href="#">Staples</a>
+                                <a class="mdl-navigation__link" href="#">Hole punches</a>
+                                <a class="mdl-navigation__link" href="#">Binders</a>
+                                <a class="mdl-navigation__link" href="#">Staplers</a>
+                                <a class="mdl-navigation__link" href="#">Laminators</a>
+                                <a class="mdl-navigation__link" href="#">Writing utensils</a>
+                                <a class="mdl-navigation__link" href="#">Paper</a>
+                                <a class="mdl-navigation__link" href="#">Computers</a>
+                                <a class="mdl-navigation__link" href="#">Printers</a>
+                                <a class="mdl-navigation__link" href="#">Fax machines</a>
+                                <a class="mdl-navigation__link" href="#">Photocopiers</a>
+                                <a class="mdl-navigation__link" href="#">Cash registers</a>
+                                <a class="mdl-navigation__link" href="#">Office furniture</a>
+                                <a class="mdl-navigation__link" href="#">Chairs</a>
+                                <a class="mdl-navigation__link" href="#">Cubicles</a>
+                                <a class="mdl-navigation__link" href="#">Filing cabinet</a>
+                                <a class="mdl-navigation__link" href="#">Armoire desks</a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdl-cell mdl-card mdl-shadow--16dp portfolio-card mdl-cell--hide-desktop">
+                <div id="paperHeader">
+                    <h1>Paper</h1></div>
+
+                <div id="fieldset1">
+                    <fieldset>
+                        <!--CurrentPrice-->
+                        <div class="dropdown">
+                            <form action="index.html" method="post" id="addToForm">
+                                <input type="hidden" id="productPrice" value="565.00">
+                                <label id="currentPrice">565,00 kr</label>
+                                <select class="js-color-swatch" id="productsName" name="productsName">
+                                    <option value="white">White</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="red">Red</option>
+                                    <option value="ping">Pink</option>
+                                </select>
+                                <button type="submit" 
+                                        onclick="APP.addToCart()"
+                                        class="buybtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Buy
+                                </button>
+                            </form>
+                        </div>
+                        <!--previousPrice-->
+                        <label id="previousPrice">670 kr</label>
+                    </fieldset>
+                </div>
+
+                <!--Product Description-->
+                <div id="fieldset2">
+                    <fieldset>
+
+                        <div class="text-container">
+                            <div id="fieldset2-text" class="text-content short-text">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                    rebum. Stet clita kasd
+                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                                    sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam
+                                    voluptua.</p>
+
+                                <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                    rebum. Stet clita kasd
+                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                                    sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam
+                                    voluptua.</p>
+
+                                <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                    rebum. Stet clita kasd
+                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                                    sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam
+                                    voluptua.</p>
+                            </div>
+                            <div id="read-more-form">
+                                <button id="read-more" href="#"
+                                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Read More
+                                </button>
+                                <!--class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"-->
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+            </div>
+
+            <!--First Row Image Elements-->
+            <div class="mdl-cell mdl-card mdl-shadow--16dp portfolio-card">
+                <div class="">
+                    <div class="js-gallery pdp-gallery">
+                        <div class="js-main-img pdp-main-img">
+                            <a href="public/images/products/white.png" class="js-image-link">
+                                <img class="article-image" src="public/images/products/white.jpg" alt="#">
+                            </a>
+                        </div>
+                        <div class="pdp-thumbnails">
+                            <div class="pdp-thumbnail-item" data-color="blue">
+                                <div class="pdp-thumbnail-item-img">
+                                    <img class="article-image" src="public/images/products/blue.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="pdp-thumbnail-item" data-color="red">
+                                <div class="pdp-thumbnail-item-img">
+                                    <img class="article-image" src="public/images/products/red.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="pdp-thumbnail-item" data-color="ping">
+                                <div class="pdp-thumbnail-item-img">
+                                    <img class="article-image" src="public/images/products/pink.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="pdp-thumbnail-item" data-color="white" style="display: none;">
+                                <div class="pdp-thumbnail-item-img">
+                                    <img class="article-image" src="public/images/products/white.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--First Row Image Elements-->
+            <div class="mdl-cell mdl-card mdl-shadow--16dp portfolio-card mdl-cell--hide-phone mdl-cell--hide-tablet">
+                <div id="paperHeader">
+                    <h1>Paper</h1></div>
+
+                <div id="fieldset1">
+                    <fieldset>
+                        <!--CurrentPrice-->
+                        <div class="dropdown">
+                            <form action="index.html" method="post" id="addToForm">
+                                <input type="hidden" id="productPrice" value="565.00">
+                                <label id="currentPrice">565,00 kr</label>
+                                <select class="js-color-swatch" id="productsName" name="productsName">
+                                    <option value="white">White</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="red">Red</option>
+                                    <option value="ping">Pink</option>
+                                </select>
+                                <button type="submit"
+                                        onclick="APP.addToCart()"
+                                        class="buybtn mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Buy
+                                </button>
+                            </form>
+                        </div>
+                        <!--previousPrice-->
+                        <label id="previousPrice">670 kr</label>
+                    </fieldset>
+                </div>
+
+                <!--Product Description-->
+                <div id="fieldset2">
+                    <fieldset>
+
+                        <div class="text-container">
+                            <div id="fieldset2-text" class="text-content short-text">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                    rebum. Stet clita kasd
+                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                                    sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam
+                                    voluptua.</p>
+
+                                <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                    rebum. Stet clita kasd
+                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                                    sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam
+                                    voluptua.</p>
+
+                                <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                                    rebum. Stet clita kasd
+                                    gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                                    sit amet, consetetur
+                                    sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                                    aliquyam erat, sed diam
+                                    voluptua.</p>
+                            </div>
+                            <div id="read-more-form">
+                                <button id="read-more" href="#"
+                                        class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Read More
+                                </button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+            </div>
+        </div>
+        <!--End of this Row Emelemts-->
+
+
+        <!--Second Row Body Elements-->
+        <div class="mdl-grid portfolio-max-width">
+            <!--Second Row 1st Body Elements-->
+            <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                <div class="mdl-card__media">
+                    <img class="article-image" src="public/images/products/white-small.jpg" border="0" alt="">
+                </div>
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Paper is awesome!</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                    gravida dolor sit amet lacus
+                    accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et
+                    magnis dis
+                    parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis
+                    tellus mollis
+                    orci, sed rhoncus sapien nunc eget odio.
+                </div>
+
+            </div>
+
+            <!--Second Row 2nd Body Elements-->
+            <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                <div class="mdl-card__media">
+                    <img class="article-image" src="public/images/products/blue-small.jpg" border="0" alt="">
+                </div>
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Paper is awesome!</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+                </div>
+
+            </div>
+
+            <!--Second Row 3rd Body Elements-->
+            <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                <div class="mdl-card__media">
+                    <img class="article-image" src="public/images/products/white2-small.jpg" border="0" alt="">
+                </div>
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">Paper is awesome!</h2>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                    gravida dolor sit amet la.
+                </div>
+
+            </div>
+        </div>
+    </main>
+    </body>
+    <!--Footer-->
+    <footer class="mdl-mega-footer" style="background: #ffffff">
+        <div class="mdl-mega-footer--middle-section">
+            <!--Logo and description-->
+            <div id="footer-left" class="mdl-mega-footer--drop-down-section">
+                <img src="public/images/OfficeSupplies.png" alt="office" height="42" width="82">
+                <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                <ul class="mdl-mega-footer--link-list">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin
+                        gravida dolor sit
+                        amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        penatibus et
+                        magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra
+                        vulputate, felis tellus
+                        mollis orci, sed rhoncus sapien nunc eget odio</p>
+                </ul>
+            </div>
+
+
+            <!--BestSeller Element-->
+            <div id="footer-center" class="mdl-mega-footer--drop-down-section">
+                <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+
+                <h1 class="mdl-mega-footer--heading">Bestsellers</h1>
+                <ul class="mdl-mega-footer--link-list">
+                    <li><a href="#">• A4</a></li>
+                    <li><a href="#">• A5</a></li>
+                    <li><a href="#">• Pens</a></li>
+                    <li><a href="#">• Staplers</a></li><br>
+                </ul>
+            </div>
+
+            <!--Social Media-->
+            <div id="footer-right" class="mdl-mega-footer--drop-down-section">
+                <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+
+                <h1 class="mdl-mega-footer--heading">We're social! </h1>
+                <ul class="mdl-mega-footer--link-list">
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/app.js"></script>
+</html>
