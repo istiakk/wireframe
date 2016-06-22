@@ -386,10 +386,6 @@ width: 45%;
   text-align: center;
 }
 
-#itemCost{
-  
-}
-
 #icon-checkout{
   color: #FF4181;
   fill: #FF4181;
@@ -413,9 +409,7 @@ width: 45%;
   height: 250px;
   width: 100%;
 }
-.pdp-thumbnails {
 
-}
 .pdp-main-img,
 .pdp-thumbnail-item-img {
   box-shadow: 0 1px 5px -3px #333;
