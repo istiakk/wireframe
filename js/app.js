@@ -95,7 +95,7 @@ var APP = {};
     $(function() {
        APP.init();
 
-        $("#read-more").on("click", function() {
+        $(".read-more").on("click", function() {
             var $link = $(this);
             var $content = $link.parent().prev("div.text-content");
             var linkText = $.trim($link.text());
